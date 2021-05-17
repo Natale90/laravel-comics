@@ -15,7 +15,7 @@ a{
 
 .inner_container{
   width: 75%;
-  border:1px solid black;
+  // border:1px solid black;
   margin:0 auto;
 }
 
@@ -26,12 +26,17 @@ body{
     .header_top_stripe{
       background-color:  #4267B2;
       height: 15px;
-      ul#top_header{
+      padding: 5px 0;
 
+      ul#top_header{
         text-align: right;
+
         li{
           display:inline-block;
           margin-left: 20px;
+          color:#fff;
+          font-size: 10px;
+          vertical-align: super;
         }
 
       }
@@ -39,6 +44,7 @@ body{
 
     .navbar_container_flex{
       display:flex;
+      padding:20px 0;
 
       #navbar{
         width: 100%;
@@ -132,11 +138,9 @@ main{
     li{
       display: flex;
       align-items: center;
-
     }
 
     img{
-
       width: auto;
       height: 40px;
     }
@@ -146,5 +150,33 @@ main{
       color:#fff;
       margin-left: 15px;
     }
+  }
+
+}
+
+footer{
+  height: 500px;
+  background-image: url('/storage/assets/footer-bg.jpg');
+  position:relative;
+
+  .inner_container{
+    position: relative;
+    height: 100%;
+
+    img{
+      height: 100%;
+      position: absolute;
+      right:0px;
+    }
+
+  }
+
+  .bottom_bar{
+    height: 100px;
+    background-color: #212121;
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
   }
 }

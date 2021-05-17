@@ -14,13 +14,13 @@ a {
 
 .inner_container {
   width: 75%;
-  border: 1px solid black;
   margin: 0 auto;
 }
 
 body header .header_top_stripe {
   background-color: #4267B2;
   height: 15px;
+  padding: 5px 0;
 }
 
 body header .header_top_stripe ul#top_header {
@@ -30,10 +30,14 @@ body header .header_top_stripe ul#top_header {
 body header .header_top_stripe ul#top_header li {
   display: inline-block;
   margin-left: 20px;
+  color: #fff;
+  font-size: 10px;
+  vertical-align: super;
 }
 
 body header .navbar_container_flex {
   display: flex;
+  padding: 20px 0;
 }
 
 body header .navbar_container_flex #navbar {
@@ -130,5 +134,31 @@ main .load_cta button {
   font-size: 20px;
   color: #fff;
   margin-left: 15px;
+}
+
+footer {
+  height: 500px;
+  background-image: url("/storage/assets/footer-bg.jpg");
+  position: relative;
+}
+
+footer .inner_container {
+  position: relative;
+  height: 100%;
+}
+
+footer .inner_container img {
+  height: 100%;
+  position: absolute;
+  right: 0px;
+}
+
+footer .bottom_bar {
+  height: 100px;
+  background-color: #212121;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
