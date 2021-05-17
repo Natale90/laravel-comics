@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.inner_container {
+  width: 75%;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+body header .header_top_stripe {
+  background-color: #4267B2;
+  height: 15px;
+}
+
+body header .header_top_stripe ul#top_header {
+  text-align: right;
+}
+
+body header .header_top_stripe ul#top_header li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+body header .navbar_container_flex {
+  display: flex;
+}
+
+body header .navbar_container_flex #navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body header .navbar_container_flex input {
+  height: 20px;
+}
+
+body header .jumbotron {
+  width: 100%;
+  height: 450px;
+  background-image: url("/storage/assets/jumbotron.jpg");
+}
+
+main {
+  background-color: #212121;
+  padding: 50px 0;
+}
+
+main .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  position: relative;
+}
+
+main .row .current_series {
+  background-color: #3b5998;
+  color: white;
+  position: absolute;
+  left: -10px;
+  top: -110px;
+  padding: 20px 20px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+main .row .card {
+  width: calc(100% / 6 - 13px);
+  margin: 30px auto;
+}
+
+main .row .card img {
+  width: 100%;
+  height: auto;
+}
+
+main .row .card .title {
+  color: #fff;
+  font-size: 20px;
+}
+
+main .load_cta {
+  text-align: center;
+}
+
+main .load_cta button {
+  padding: 10px 45px;
+  font-size: 20px;
+  background-color: #3b5998;
+  color: #fff;
+  text-align: center;
+  border: none;
+}
+
+.infra_section {
+  background-color: #3b5998;
+  padding: 30px 0;
+}
+
+.infra_section ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infra_section ul li {
+  display: flex;
+  align-items: center;
+}
+
+.infra_section ul img {
+  width: auto;
+  height: 40px;
+}
+
+.infra_section ul a {
+  font-size: 20px;
+  color: #fff;
+  margin-left: 15px;
+}
+
