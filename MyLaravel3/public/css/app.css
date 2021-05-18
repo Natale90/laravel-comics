@@ -113,23 +113,23 @@ main .load_cta button {
   border: none;
 }
 
-.description_section {
+section.description_section {
   background-color: #fff;
 }
 
-.description_section .divider {
+section.description_section .divider {
   height: 60px;
   background-color: #3b5998;
 }
 
-.description_section .inner_container_element {
+section.description_section .inner_container_element {
   width: 65%;
   padding: 50px 0;
   margin: 0 auto;
   position: relative;
 }
 
-.description_section .inner_container_element .cover_detail {
+section.description_section .inner_container_element .cover_detail {
   border: 1px solid #fff;
   background-color: #fff;
   position: absolute;
@@ -137,46 +137,94 @@ main .load_cta button {
   left: 0px;
 }
 
-.description_section .inner_container_element .details {
+section.description_section .inner_container_element .details {
   display: flex;
 }
 
-.description_section .inner_container_element .info {
+section.description_section .inner_container_element .info {
   max-width: 60%;
   font-size: 20px;
 }
 
-.description_section .inner_container_element .info h3 {
+section.description_section .inner_container_element .info h3 {
   font-size: 30px;
 }
 
-.description_section .inner_container_element .info .availabillity {
+section.description_section .inner_container_element .info .availabillity {
   background-color: #1DB954;
   display: flex;
 }
 
-.description_section .inner_container_element .info .availabillity .priceDetails {
+section.description_section .inner_container_element .info .availabillity .priceDetails {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
   padding: 10px 20px;
 }
 
-.description_section .inner_container_element .info .availabillity .check {
+section.description_section .inner_container_element .info .availabillity .check {
   padding: 10px;
 }
 
-.description_section .inner_container_element .info p {
+section.description_section .inner_container_element .info p {
   text-align: justify;
 }
 
-.description_section .inner_container_element .commercial {
+section.description_section .inner_container_element .commercial {
   border: 1px solid red;
   margin-left: 40px;
 }
 
-.description_section .inner_container_element .advertisement {
+section.description_section .inner_container_element .advertisement {
   text-align: right;
+}
+
+section.moreDetails {
+  background-color: lightgrey;
+}
+
+section.moreDetails .inner_container_element {
+  width: 65%;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}
+
+section.moreDetails .inner_container_element .talent,
+section.moreDetails .inner_container_element .specs {
+  width: 50%;
+}
+
+section.moreDetails .inner_container_element .talent .ArtBy,
+section.moreDetails .inner_container_element .talent .writers {
+  display: flex;
+  padding: 20px 10px 20px 0;
+  border-bottom: 1px solid grey;
+}
+
+section.moreDetails .inner_container_element .talent .artBy_left,
+section.moreDetails .inner_container_element .talent .writer_left {
+  min-width: 30%;
+}
+
+section.moreDetails .inner_container_element .specs {
+  padding-left: 20px;
+}
+
+section.moreDetails .inner_container_element .specs .serie,
+section.moreDetails .inner_container_element .specs .price_details,
+section.moreDetails .inner_container_element .specs .onSale {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid grey;
+}
+
+section.moreDetails .inner_container_element .specs .serie_left,
+section.moreDetails .inner_container_element .specs .price_left,
+section.moreDetails .inner_container_element .specs .sale_left {
+  min-width: 30%;
 }
 
 .infra_section {

@@ -131,7 +131,7 @@ main{
 // ...........................................
 
 // element-page style
-.description_section{
+section.description_section{
   background-color: #fff;
 
 
@@ -201,6 +201,51 @@ main{
     }
 
 
+  }
+}
+
+section.moreDetails{
+  background-color: lightgrey;
+
+  .inner_container_element{
+    width: 65%;
+    padding: 50px 0;
+    margin:0 auto;
+    position: relative;
+    display:flex;
+
+   .talent,.specs{
+     width: 50%;
+   }
+
+    .talent{
+
+     .ArtBy, .writers{
+       display: flex;
+       padding: 20px 10px 20px 0;
+       border-bottom: 1px solid grey;
+     }
+
+     .artBy_left, .writer_left{
+      min-width: 30%;
+     }
+    }
+
+    .specs{
+      padding-left: 20px;
+
+      .serie, .price_details, .onSale{
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+        border-bottom: 1px solid grey;
+      }
+
+      .serie_left, .price_left, .sale_left{
+        min-width: 30%;
+      }
+
+    }
   }
 }
 
