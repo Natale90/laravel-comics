@@ -20,7 +20,9 @@
             </div>
 
             <div class="title">
-              {{ $oneComic['series'] }}
+              <a href="{{ route('elem', $loop->index) }}">
+                {{ $oneComic['series'] }}
+              </a>
             </div>
           </div>
 

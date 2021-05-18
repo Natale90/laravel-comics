@@ -17,6 +17,10 @@ a {
   margin: 0 auto;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 body header .header_top_stripe {
   background-color: #4267B2;
   height: 15px;
@@ -107,6 +111,72 @@ main .load_cta button {
   color: #fff;
   text-align: center;
   border: none;
+}
+
+.description_section {
+  background-color: #fff;
+}
+
+.description_section .divider {
+  height: 60px;
+  background-color: #3b5998;
+}
+
+.description_section .inner_container_element {
+  width: 65%;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.description_section .inner_container_element .cover_detail {
+  border: 1px solid #fff;
+  background-color: #fff;
+  position: absolute;
+  top: -320px;
+  left: 0px;
+}
+
+.description_section .inner_container_element .details {
+  display: flex;
+}
+
+.description_section .inner_container_element .info {
+  max-width: 60%;
+  font-size: 20px;
+}
+
+.description_section .inner_container_element .info h3 {
+  font-size: 30px;
+}
+
+.description_section .inner_container_element .info .availabillity {
+  background-color: #1DB954;
+  display: flex;
+}
+
+.description_section .inner_container_element .info .availabillity .priceDetails {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.description_section .inner_container_element .info .availabillity .check {
+  padding: 10px;
+}
+
+.description_section .inner_container_element .info p {
+  text-align: justify;
+}
+
+.description_section .inner_container_element .commercial {
+  border: 1px solid red;
+  margin-left: 40px;
+}
+
+.description_section .inner_container_element .advertisement {
+  text-align: right;
 }
 
 .infra_section {

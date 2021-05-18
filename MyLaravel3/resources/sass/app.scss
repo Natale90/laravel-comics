@@ -20,7 +20,7 @@ a{
 }
 
 body{
-
+  font-family: 'Roboto', sans-serif;
   header{
 
     .header_top_stripe{
@@ -124,7 +124,87 @@ main{
       border: none;
     }
   }
+
 }
+// end of main
+
+// ...........................................
+
+// element-page style
+.description_section{
+  background-color: #fff;
+
+
+
+  .divider{
+    height: 60px;
+    background-color: #3b5998;
+  }
+
+  .inner_container_element{
+    width: 65%;
+    padding: 50px 0;
+    margin:0 auto;
+    position: relative;
+
+    .cover_detail{
+      border: 1px solid #fff;
+      background-color: #fff;
+      position: absolute;
+      top:-320px;
+      left:0px;
+    }
+
+    .details{
+      display: flex;
+    }
+
+    .info{
+      max-width: 60%;
+      font-size: 20px;
+
+      h3{
+        font-size: 30px;
+      }
+
+
+      .availabillity {
+        background-color:	#1DB954;
+        display: flex;
+        // justify-content: space-between;
+
+        .priceDetails{
+          display: flex;
+          flex-grow: 1;
+          justify-content: space-between;
+          padding:10px 20px;
+        }
+
+        .check{
+          padding:10px;
+        }
+
+      }
+
+      p{
+        text-align: justify;
+      }
+
+
+    }
+    .commercial{
+      border:1px solid red;
+      margin-left: 40px;
+    }
+    .advertisement{
+      text-align: right;
+    }
+
+
+  }
+}
+
+// end of element-page style
 
 .infra_section{
   background-color: #3b5998;
